@@ -1,0 +1,72 @@
+.emi-article{
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px 30px;
+    box-shadow: 0 0 7px -1px rgb(0 0 0 / 40%);
+}
+.emi-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #314467;
+}
+.label-heading{
+    font-size: 14px;
+    color: #9f9f9f;
+}
+.label-div{
+    justify-content: space-between;
+}
+.input-range{
+    width: 100%;
+}
+.maxlimit-text{
+    float: right;
+}
+.text-value{
+    color: #9f9f9f;
+}
+.chart{
+    height: 341px;
+    border: 12px solid #f6f6f6;
+    border-radius: 30px;
+    padding: 12px;
+    padding-bottom: 50px;
+}
+.proxy-container{
+    display: flex;
+    justify-content: space-between;
+}
+.element-name{
+    font-size: 14px;
+    line-height: 14px;
+    color: #9f9f9f;
+    padding-left: 15px;
+}
+.value-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #314467;
+}
+.chart-thumbnail{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+}
+.input-class{
+    width: 28%;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 18px;
+    height: 32px;
+    padding: 0 10px;
+}
+.chart-center-div{
+    position: relative;
+    bottom: 55%;
+    color: #333333;
+    font-size: 18px;
+}
+.doughnut{
+    position: relative;
+    z-index: 1;
+}
