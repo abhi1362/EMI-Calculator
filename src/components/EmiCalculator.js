@@ -57,6 +57,7 @@ const EmiCalculator = () => {
                     min="0"
                     max="50000000"
                     className="input-range"
+                    tabIndex="0"
                     value={loanAmount}
                     onChange={({ target: { value: radius } }) =>
                       setLoanAmount(radius)
@@ -84,6 +85,7 @@ const EmiCalculator = () => {
                     type="range"
                     min="0"
                     max="15"
+                    tabIndex="0"
                     className="input-range"
                     value={interestRate}
                     onChange={({ target: { value: radius } }) =>
@@ -112,6 +114,7 @@ const EmiCalculator = () => {
                     type="range"
                     min="0"
                     max="30"
+                    tabIndex="0"
                     className="input-range"
                     value={loanTerm}
                     onChange={({ target: { value: radius } }) =>
